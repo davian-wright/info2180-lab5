@@ -1,6 +1,5 @@
 <?php
 $country = $_get['country'];
-$all = $_get['all'];
 $host = 'localhost';
 $username = 'lab5_user';
 $password = 'password123';

@@ -10,14 +10,8 @@ function countrySearch(){
             alert(this.responseText.replace(/<\/?[^>]+(>|$)/g, " "));
     };
     
-    if (document.getElementById('lookup').checked)
-    {
-        var url = "world.php?all=true";
-    }
-    else
-    {
-        var url = "world.php?country="+query;
-    }
+    if (document.getElementById("lookup").addEventListener("click", search(var url = "world.php?country="+query;)
+
     
     httprequest.open("GET",url,true);
     httprequest.send("");
